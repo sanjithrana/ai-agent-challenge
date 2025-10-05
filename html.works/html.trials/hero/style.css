@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    margin: 0%;
+}
+header{
+    background-color: grey;
+    height: 100%;
+   
+    display: flex;
+}
+.first{
+    display: flex;
+    align-items: center;
+}
+img{
+    margin-top: 9PX;
+    height: 19px;
+    align-items: center; 
+    padding: 5px 5px 10px;  
+    
+}
+a{
+    font-size: 21px;
+    padding: 2px 2px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+i{
+    padding :9px;
+    margin-left: 5px;
+    color: black;
+}
+.navbar{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.navbar img{
+    height: 35px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navbar a{
+    color: black;
+    
+    padding: 5px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.button1{
+    background-color: #e35205;
+    border-radius: 5px;
+    padding: 10px;
+    height: 36px;
+    color: white;
+}
+.button2{
+    background-color: rgb(73, 73, 141);
+    color: white;
+    padding: 10px;
+    height: 50px;
+    
+
+}
+.photo img{
+    height: 40%;
+    width: 100%;
+
+}
+
+@media help {
+    
+}
+.help{
+    background-color: rgb(129, 129, 224);
+    height: 1000px; 
+    width: 100%;
+    position: absolute;
+    
+    
+    
+}
+.TEXT1{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 20px;
+    margin-left: 100px;
+    text-align: start;
+    float: inline-start;
+    font-size: xx-large;
+    
+}
+
+.button3 img{
+    height: 70px;
+    width: 70px;
+
+}
+.help .button3{
+    height:110px ;
+    width: 94px;
+    padding: 2px;
+    margin-left: 100px;
+    border-radius: 10PX;
+    color: white;
+    background-color: white;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+}
+.text3{
+    margin-left:95px;
+    margin-top: 130px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+h3:hover {
+    color: #e35205;
+}
+.button4 img{
+    height: 70px;
+    width: 70px;
+
+}
+.text4{
+    margin-left: 320px;
+    margin-top: 130px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+.button4{
+    height:110px ;
+    width: 94px;
+    padding: 2px;
+    margin-left: 350px;
+    border-radius: 10PX;
+    color: white;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+
+}
+.button5 img{
+    height: 70px;
+    width: 70px;
+
+}
+.button5{
+    height:110px ;
+    width: 94px;
+    padding: 2px;
+    margin-left: 100px;
+    margin-top: 250px;
+    border-radius: 10PX;
+    color: white;
+    background-color: white;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+}
+.text5{
+    margin-left:50px;
+    margin-top: 380px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+
+}
+.button6 img{
+    height: 70px;
+    width: 70px;
+}
+.button6{
+    height:110px ;
+    width: 94px;
+    padding: 2px;
+    margin-left: 350px;
+    margin-top: 250px;
+    border-radius: 10PX;
+    color: white;
+    background-color: white;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+
+}
+.text6{
+    margin-left:345px;
+    margin-top: 380px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+.button7 img{
+    height: 70px;
+    width: 70px;
+
+}
+.button7{
+    height:110px ;
+    width: 94px;
+    padding: 2px;
+    margin-left: 600px;
+    border-radius: 10PX;
+    color: white;
+    background-color: white;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+
+}
+.text7{
+    margin-left:588px;
+    margin-top: 130px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    
+   
+}
+.button8 img{
+    height: 70px;
+    width: 70px;
+
+}
+.button8{
+    height:110px ;
+    width: 94px;
+    padding: 2px;
+    margin-left: 600px;
+    margin-top: 250px;
+    border-radius: 10PX;
+    color: white;
+    background-color: white;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+}
+.text8{
+    margin-left:578px;
+    margin-top: 380px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    
+   
+}
+.TEXT2{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 20px;
+   margin-left: 850px;
+   margin-top: -40px;
+    
+    
+    font-size: xx-large;
+}
+.box1{
+    height: 346px;
+    width: 346px;
+    margin-top: 40px;
+    position: absolute;
+margin-left: 850px;
+    background-color: #5d5c5b11;
+    float: left;
+    border-radius: 30px;
+}
+.box1 img{
+    height: 346px;
+    width: 346px;
+    margin-top: -32px;
+    position: relative;
+    border-radius: 30px;
+    display: block;
+}
+.next{
+    height: 1000px;
+}
+
+
+

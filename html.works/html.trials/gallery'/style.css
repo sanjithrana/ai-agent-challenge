@@ -1,0 +1,25 @@
+.gallery{
+    display: inline-block;
+    border: 2px solid grey;
+    margin: 5px;
+    width: 200px;
+}
+.gallery .discrpiction{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Segoe UI';
+    padding: 10px;
+}
+.gallery:hover .discrpiction{
+    background-color: blueviolet;
+
+}
+
+.gallery:hover {
+    border: 2px;
+    background-color: rgb(129, 129, 129);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}

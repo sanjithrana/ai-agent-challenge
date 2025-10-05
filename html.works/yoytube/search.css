@@ -1,0 +1,221 @@
+
+.search-box{
+    height: 70px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   z-index: 100;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid ;
+    border-bottom-color: rgb(177, 175, 175);
+    
+
+}
+
+
+
+.first-section{
+    align-items: center;
+    display: flex;
+}
+.you-pic{
+    width: 162px;
+   margin-left: 10px;
+   cursor: pointer;
+   
+}
+.fa-solid.fa-bars{
+    margin-left: 33px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.middle-section{
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar::placeholder{
+    font-size: large;
+    margin-top: 5px;
+}
+
+.search-bar{
+        display: flex;
+        flex: 1;
+        height: 40px;
+        padding-left: 10px;
+        max-width:550px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(185, 185, 185);
+        border-radius: 2px;
+        box-shadow: inset1px 2px 3px rgb(0, 0, 0,0.15);
+        width: 0;
+        position: relative;
+}
+.button1{
+ 
+    cursor: pointer; 
+      width:60px ;
+      height: 40px;
+      margin-left: -2px;
+}
+.button1,
+.button2,
+.button3{
+
+    position: relative;
+
+}
+
+.button1 .search-hover,
+.button2 .mic-hover,
+.button3 .create-hover{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 15px;
+    bottom: -30px;
+    left: 0;
+    opacity: 0;
+transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.button1:hover .search-hover,
+.button2:hover .mic-hover,
+.button3:hover .create-hover{
+opacity: 1;
+}
+
+.fa-solid.fa-magnifying-glass{
+    font-size: 20px;
+    margin-top:3px;
+
+}
+.button2{
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    
+}
+.button2:hover{
+    color: #c5c5c5;
+}
+.fa-solid.fa-microphone{
+font-size: 17px;
+margin-top: 3px;
+color: black;
+}
+
+.end-section{
+
+width: 180px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-shrink: 0;
+}
+.fa-solid.fa-square-plus{
+    font-size: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.fa-solid.fa-bell{
+    font-size: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+   
+
+}
+.notification{
+   position: relative;
+
+}
+.notification-count{
+    position: absolute;
+    background-color: rgb(224, 7, 7);
+    top: -6px;
+    right: 17px;
+    font-family: Arial;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 9px;
+
+
+}
+
+
+.profile-piture-end{
+
+    width: 45px;
+   margin-top: 4px;
+   cursor: pointer;
+   border-radius: 23px;
+}
+
+
+
+.side-bar{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    top: 69px;
+    left: 0;
+    right: 0;
+    width: 90px;
+    z-index: 200;
+    padding-top: 5px;
+   
+    
+}
+.sidebar-link{
+    background-color: rgb(255, 255, 255);
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+    
+    
+}
+.sidebar-link:hover{
+    background-color: rgb(236, 236, 236);
+}
+i{
+    font-size: x-large;
+}
+.sidebar-link div{
+   font-size: small;
+   padding-top: 7px;
+}
+

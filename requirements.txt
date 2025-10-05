@@ -1,0 +1,7 @@
+langgraph
+pandas
+PyPDF2
+groq
+pytest
+python-dotenv
+langchain-groq

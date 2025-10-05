@@ -1,0 +1,41 @@
+.grid{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 100px 200px;
+}
+.grid2{
+    margin-top: -85px;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: 100px 200px;
+
+}
+.row1{
+    background-color: rgb(252, 252, 252);
+    height: 80px;
+    width: 82px;
+    align-items: center;
+    
+}
+.box1{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    padding: 20px;
+}
+.box1:hover{
+    color: red;
+    
+}
+.row2{
+    padding: 1px;
+    background-color: rgb(216, 233, 233);
+    height: 80px;
+    width: 82px;
+    align-items: center;
+}
+.box2{
+
+}

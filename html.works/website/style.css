@@ -1,0 +1,44 @@
+*{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navborder{
+    height:30px;
+    background-color: #303030;
+    color: white;
+    display: flex;
+}
+
+.border{
+    border: 1.2px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white;
+}
+/**india flang and name**/
+.nav-logos{
+    height: 11px;
+    width: 18px;
+    
+
+}
+.india{
+    background-image: url("images/india.jpg");
+    background-size: cover;
+    height: 11px;
+    width: 100%;
+   
+   display: flex;
+   
+    
+}
+.india-name{
+    font-size: 0.85rem;
+   margin-left: 20px;
+   display: flex;
+   align-items: center;
+
+
+}
